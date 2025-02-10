@@ -37,3 +37,7 @@ status-website:
       href: https://neonevm.org/
     - title: GitHub
       href: https://github.com/neonevm
+
+i18n:
+  footer: Neon Foundation, 2025
+
