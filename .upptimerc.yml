@@ -26,13 +26,13 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  baseUrl: /status
+  baseUrl: /
   logoUrl: https://neonevm.org/img/logo.svg
   name: NeonEVM Status Page
   introMessage: Status page for the NeonEVM services
   navbar:
     - title: Status
-      href: /status
+      href: /
     - title: Site
       href: https://neonevm.org/
     - title: GitHub
