@@ -9,21 +9,27 @@ sites:
     url: https://neonpass.live
   - name: Neonscan service
     url: https://neonscan.org
-  - name: P2P proxy
+  - name: Mainnet proxy on P2P
     url: https://neon-proxy-mainnet.solana.p2p.org
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{ "jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id": 1 }'
     icon: https://icons.duckduckgo.com/ip3/p2p.org.ico
-  - name: Everstake proxy
+  - name: Mainnet proxy on Everstake
     url: https://neon-mainnet.everstake.one
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{ "jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id": 1 }'
     icon: https://avatars.githubusercontent.com/u/49940420
-
+  - name: Devnet proxy
+    url: https://devnet.neonevm.org/solana
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id": 1 }'
+    icon: https://icons.duckduckgo.com/ip3/neonevm.org.ico
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
