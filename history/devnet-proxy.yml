@@ -1,7 +1,7 @@
 url: https://devnet.neonevm.org/solana
-status: down
-code: 403
-responseTime: 564
-lastUpdated: 2025-02-11T15:54:54.819Z
+status: up
+code: 200
+responseTime: 671
+lastUpdated: 2025-02-11T17:54:04.556Z
 startTime: 2025-02-10T19:18:14.300Z
 generator: Upptime <https://github.com/upptime/upptime>
