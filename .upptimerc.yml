@@ -5,10 +5,16 @@ repo: status # The name of this repository
 sites:
   - name: NeonEVM website
     url: https://neonevm.org
+    __dangerous__body_down_if_text_missing: NeonEVM
   - name: Neonpass service
     url: https://neonpass.live
+    __dangerous__body_down_if_text_missing: NeonPass
   - name: Neonscan service
     url: https://neonscan.org
+    __dangerous__body_down_if_text_missing: '<div id="root"></div>'
+  - name: Neonscan API
+    url: https://api.neonscan.org/block/lastest?offset=0&limit=1
+    __dangerous__body_down_if_text_missing: '"success":true'    
   - name: Mainnet proxy on P2P
     url: https://neon-proxy-mainnet.solana.p2p.org
     method: POST
