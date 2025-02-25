@@ -1,7 +1,7 @@
 url: https://neon-proxy-mainnet.solana.p2p.org
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-02-25T09:36:07.419Z
+status: up
+code: 200
+responseTime: 565
+lastUpdated: 2025-02-25T10:18:10.682Z
 startTime: 2025-02-10T19:18:07.884Z
 generator: Upptime <https://github.com/upptime/upptime>
