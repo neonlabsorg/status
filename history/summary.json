@@ -78,9 +78,9 @@
     "url": "https://neon-proxy-mainnet.solana.p2p.org",
     "icon": "https://icons.duckduckgo.com/ip3/p2p.org.ico",
     "slug": "mainnet-proxy-on-p2-p",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -89,7 +89,9 @@
     "timeWeek": 539,
     "timeMonth": 525,
     "timeYear": 525,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-25": 0
+    }
   },
   {
     "name": "Mainnet proxy on Everstake",
@@ -97,18 +99,18 @@
     "icon": "https://avatars.githubusercontent.com/u/49940420",
     "slug": "mainnet-proxy-on-everstake",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.91%",
+    "uptimeDay": "98.75%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
     "time": 706,
     "timeDay": 413,
     "timeWeek": 447,
     "timeMonth": 706,
     "timeYear": 706,
     "dailyMinutesDown": {
-      "2025-02-25": 0
+      "2025-02-25": 18
     }
   },
   {
