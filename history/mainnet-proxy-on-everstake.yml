@@ -1,7 +1,7 @@
 url: https://neon-mainnet.everstake.one
-status: up
-code: 200
-responseTime: 553
-lastUpdated: 2025-04-05T14:40:29.195Z
+status: down
+code: 504
+responseTime: 15561
+lastUpdated: 2025-04-05T17:50:23.935Z
 startTime: 2025-02-10T19:18:08.621Z
 generator: Upptime <https://github.com/upptime/upptime>
