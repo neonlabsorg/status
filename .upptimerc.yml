@@ -1,36 +1,58 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: neonlabsorg # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
-
+  - name: NeonEVM website
+    url: https://neonevm.org
+    __dangerous__body_down_if_text_missing: NeonEVM
+  - name: Neonpass service
+    url: https://neonpass.live
+    __dangerous__body_down_if_text_missing: NeonPass
+  - name: Neonscan service
+    url: https://neonscan.org
+    __dangerous__body_down_if_text_missing: '<div id="root"></div>'
+  - name: Neonscan API
+    url: https://api.neonscan.org/block/lastest?offset=0&limit=1
+    __dangerous__body_down_if_text_missing: '"success":true'    
+  - name: Mainnet proxy on P2P
+    url: https://neon-proxy-mainnet.solana.p2p.org
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id": 1 }'
+    icon: https://icons.duckduckgo.com/ip3/p2p.org.ico
+  - name: Mainnet proxy on Everstake
+    url: https://neon-mainnet.everstake.one
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id": 1 }'
+    icon: https://avatars.githubusercontent.com/u/49940420
+  - name: Devnet proxy
+    url: https://devnet.neonevm.org/solana
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{ "jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id": 1 }'
+    icon: https://icons.duckduckgo.com/ip3/neonevm.org.ico
+assignees:
+  - DevOps
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.neonevm.org
+  # baseUrl: /
+  logoUrl: https://neonevm.org/img/logo.svg
+  name: NeonEVM Status Page
+  introMessage: Status page for the NeonEVM services
   navbar:
     - title: Status
       href: /
+    - title: Site
+      href: https://neonevm.org/
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/neonevm
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  footer: Neon Foundation, 2025
