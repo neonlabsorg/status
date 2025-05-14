@@ -94,18 +94,20 @@
     "url": "https://neon-mainnet.everstake.one",
     "icon": "https://avatars.githubusercontent.com/u/49940420",
     "slug": "mainnet-proxy-on-everstake",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 522,
-    "timeDay": 408,
-    "timeWeek": 509,
-    "timeMonth": 522,
-    "timeYear": 522,
-    "dailyMinutesDown": {}
+    "time": 2037,
+    "timeDay": 8040,
+    "timeWeek": 2405,
+    "timeMonth": 2037,
+    "timeYear": 2037,
+    "dailyMinutesDown": {
+      "2025-05-14": 0
+    }
   },
   {
     "name": "Devnet proxy",
