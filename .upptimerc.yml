@@ -14,14 +14,15 @@ sites:
     __dangerous__body_down_if_text_missing: '<div id="root"></div>'
   - name: Neonscan API
     url: https://api.neonscan.org/block/lastest?offset=0&limit=1
-    __dangerous__body_down_if_text_missing: '"success":true'    
+    __dangerous__body_down_if_text_missing: '"success":true'  
+    icon: https://neonscan.org/favicon.png
   - name: Mainnet proxy on P2P
     url: https://neon-proxy-mainnet.solana.p2p.org
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{ "jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id": 1 }'
-    icon: https://icons.duckduckgo.com/ip3/p2p.org.ico
+    icon: https://cdn.prod.website-files.com/661ce38fc2cbb4e39a655100/661e5a04c53f2dcc93c360b0_32x32.svg
   - name: Mainnet proxy on Everstake
     url: https://neon-mainnet.everstake.one
     method: POST
