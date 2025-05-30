@@ -1,7 +1,7 @@
 url: https://api.neonscan.org/block/lastest?offset=0&limit=1
-status: down
-code: 502
-responseTime: 559
-lastUpdated: 2025-05-30T11:45:03.123Z
+status: up
+code: 200
+responseTime: 584
+lastUpdated: 2025-05-30T11:51:30.714Z
 startTime: 2025-05-06T15:22:22.964Z
 generator: Upptime <https://github.com/upptime/upptime>
