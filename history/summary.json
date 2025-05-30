@@ -58,18 +58,20 @@
     "url": "https://api.neonscan.org/block/lastest?offset=0&limit=1",
     "icon": "https://neonscan.org/favicon.png",
     "slug": "neonscan-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 557,
-    "timeDay": 547,
-    "timeWeek": 482,
+    "timeDay": 553,
+    "timeWeek": 490,
     "timeMonth": 557,
     "timeYear": 557,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-05-30": 0
+    }
   },
   {
     "name": "Mainnet proxy on P2P",
