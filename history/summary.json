@@ -4,18 +4,20 @@
     "url": "https://neonevm.org",
     "icon": "https://icons.duckduckgo.com/ip3/neonevm.org.ico",
     "slug": "neon-evm-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1343,
-    "timeDay": 1231,
-    "timeWeek": 1276,
-    "timeMonth": 1342,
-    "timeYear": 1343,
-    "dailyMinutesDown": {}
+    "time": 1323,
+    "timeDay": 891,
+    "timeWeek": 1185,
+    "timeMonth": 1319,
+    "timeYear": 1323,
+    "dailyMinutesDown": {
+      "2025-06-09": 0
+    }
   },
   {
     "name": "Neonpass service",
