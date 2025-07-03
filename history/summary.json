@@ -114,17 +114,19 @@
     "url": "https://devnet.neonevm.org/solana",
     "icon": "https://icons.duckduckgo.com/ip3/neonevm.org.ico",
     "slug": "devnet-proxy",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 587,
-    "timeDay": 394,
-    "timeWeek": 542,
+    "timeDay": 485,
+    "timeWeek": 547,
     "timeMonth": 575,
     "timeYear": 587,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-07-03": 0
+    }
   }
 ]
